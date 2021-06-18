@@ -1,5 +1,6 @@
 /* Enter your solutions in this file */
 #include <stdio.h>
+#include <math.h>
 int max(int arr[],int n)
 {
   int max;
@@ -61,11 +62,11 @@ int mode(int arr[],int n)
   return mdn;
 }
 
-int factors(int n;int arr[])
+int factors(int num,int arr[])
 {
   int i=0;
-  num=n;
-  while(num%2==0)
+  
+   while(num%2==0)
   {
     arr[i]=2;
     i++;
