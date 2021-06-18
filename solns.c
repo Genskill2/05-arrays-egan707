@@ -22,7 +22,7 @@ int min(int arr[],int n)
   }
   return min;
 }
-float average(int arr[],int n0
+float average(int arr[],int n)
 {
  float avg;
  avg=0.0;
